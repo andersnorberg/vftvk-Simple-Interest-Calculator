@@ -9,7 +9,7 @@ function compute()
   p = document.getElementById("principal").value;
   if (p <= 0)
   {
-    alert("Please type a positive number for principal!")
+    alert("Please type a positive number for Amount!")
     document.getElementById("principal").value = "";
     document.getElementById("principal").focus();
     return 0;
